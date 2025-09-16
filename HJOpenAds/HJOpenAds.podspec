@@ -9,7 +9,7 @@ TODO: Add long description of the pod here.
   DESC
 
   s.homepage         = 'https://github.com/iOSorPython/HJOpenAds'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license = { :type => 'MIT' }
   s.author           = { 'hubOK' => '260413992@qq.com' }
   s.source           = { :git => 'https://github.com/iOSorPython/HJOpenAds.git', :tag => s.version.to_s }
 
