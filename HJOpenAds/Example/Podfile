@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'HJOpenAd_Example' do
-  pod 'HJOpenAds', :path => '../'
+  pod 'HJOpenAd', :path => '../'
 
   target 'HJOpenAd_Tests' do
     inherit! :search_paths

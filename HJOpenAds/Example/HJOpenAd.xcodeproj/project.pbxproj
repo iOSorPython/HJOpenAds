@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		46385FE54EBF45C21C9DCFD6 /* Pods-HJOpenAd_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJOpenAd_Tests.release.xcconfig"; path = "Target Support Files/Pods-HJOpenAd_Tests/Pods-HJOpenAd_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		48878A65A034DEEAFFC421B7 /* Pods-HJOpenAd_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJOpenAd_Example.debug.xcconfig"; path = "Target Support Files/Pods-HJOpenAd_Example/Pods-HJOpenAd_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		52D764F7649209C06A0B9639 /* HJOpenAd.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HJOpenAd.podspec; path = ../HJOpenAd.podspec; sourceTree = "<group>"; };
+		52D764F7649209C06A0B9639 /* HJOpenAd.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = HJOpenAd.podspec; path = ../HJOpenAd.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HJOpenAd_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HJOpenAd_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,11 +59,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		66984536E520CE1DDEDDFF2B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		66984536E520CE1DDEDDFF2B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E5A9CB3D1BD7A46FD9FE81D /* Pods-HJOpenAd_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJOpenAd_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HJOpenAd_Tests/Pods-HJOpenAd_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AAE14691D52EC5AB8C5BD3E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AAE14691D52EC5AB8C5BD3E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C224E9499B0C0751CA43CA5B /* Pods_HJOpenAd_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJOpenAd_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21F3B533CBF85D15BA50EBB /* Pods_HJOpenAd_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HJOpenAd_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE34C1311298BA57688D82D4 /* Pods-HJOpenAd_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HJOpenAd_Example.release.xcconfig"; path = "Target Support Files/Pods-HJOpenAd_Example/Pods-HJOpenAd_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				7E5A9CB3D1BD7A46FD9FE81D /* Pods-HJOpenAd_Tests.debug.xcconfig */,
 				46385FE54EBF45C21C9DCFD6 /* Pods-HJOpenAd_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,7 +208,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				2387F11B82ABA9D92D905470 /* [CP] Embed Pods Frameworks */,
-				CE6FB0997DFC9028330DF712 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -303,15 +302,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HJOpenAd_Example/Pods-HJOpenAd_Example-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/GDTMobSDK/GDTMobSDK.framework/GDTMobSDK",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/GDTMobSDK/Tquic.framework/Tquic",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ToBid-iOS/KSAdapter/KSAdSDK.framework/KSAdSDK",
+				"${BUILT_PRODUCTS_DIR}/HJOpenAd/HJOpenAd.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GDTMobSDK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tquic.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSAdSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HJOpenAd.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -338,28 +333,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CE6FB0997DFC9028330DF712 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HJOpenAd_Example/Pods-HJOpenAd_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MintegralAdSDK/MTGSDK.bundle",
-				"${PODS_ROOT}/ToBid-iOS/tobid-sdk-ios-cn/AdNetworks/baidu/baidumobadsdk.bundle",
-				"${PODS_ROOT}/ToBid-iOS/tobid-sdk-ios-cn/AdNetworks/csj/CSJAdSDK.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MTGSDK.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/baidumobadsdk.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CSJAdSDK.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HJOpenAd_Example/Pods-HJOpenAd_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D630CE3A53AD887D9EEA211B /* [CP] Check Pods Manifest.lock */ = {
@@ -524,6 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HJOpenAd/HJOpenAd-Prefix.pch";
 				INFOPLIST_FILE = "HJOpenAd/HJOpenAd-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -540,6 +514,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HJOpenAd/HJOpenAd-Prefix.pch";
 				INFOPLIST_FILE = "HJOpenAd/HJOpenAd-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
