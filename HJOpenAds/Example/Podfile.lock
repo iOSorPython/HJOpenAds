@@ -1,0 +1,84 @@
+PODS:
+  - GDTMobSDK (4.15.40)
+  - HJOpenAds (2.4.0):
+    - ToBid-iOS/BaiduAdapter (= 4.5.0)
+    - ToBid-iOS/CSJMediationAdapter (= 4.5.0)
+    - ToBid-iOS/GDTAdapter (= 4.5.0)
+    - ToBid-iOS/KSAdapter (= 4.5.0)
+    - ToBid-iOS/MintegralAdapter (= 4.5.0)
+    - ToBid-iOS/TouTiaoAdapter (= 4.5.0)
+  - MintegralAdSDK/BannerAd (7.7.6):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidBannerAd (7.7.6):
+    - MintegralAdSDK/BannerAd
+    - MintegralAdSDK/BidNativeAd
+  - MintegralAdSDK/BidNativeAd (7.7.6):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidNativeAdvancedAd (7.7.6):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/NativeAdvancedAd
+  - MintegralAdSDK/BidNewInterstitialAd (7.7.6):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/NewInterstitialAd
+  - MintegralAdSDK/BidRewardVideoAd (7.7.6):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/RewardVideoAd
+  - MintegralAdSDK/BidSplashAd (7.7.6):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/SplashAd
+  - MintegralAdSDK/InterstitialVideoAd (7.7.6):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NativeAd (7.7.6)
+  - MintegralAdSDK/NativeAdvancedAd (7.7.6):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NewInterstitialAd (7.7.6):
+    - MintegralAdSDK/InterstitialVideoAd
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/RewardVideoAd (7.7.6):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/SplashAd (7.7.6):
+    - MintegralAdSDK/NativeAd
+  - ToBid-iOS/BaiduAdapter (4.5.0):
+    - ToBid-iOS/ToBidSDK
+  - ToBid-iOS/CSJMediationAdapter (4.5.0):
+    - ToBid-iOS/TouTiaoAdapter
+  - ToBid-iOS/GDTAdapter (4.5.0):
+    - GDTMobSDK (= 4.15.40)
+    - ToBid-iOS/ToBidSDK
+  - ToBid-iOS/KSAdapter (4.5.0):
+    - ToBid-iOS/ToBidSDK
+  - ToBid-iOS/MintegralAdapter (4.5.0):
+    - MintegralAdSDK/BidBannerAd (= 7.7.6)
+    - MintegralAdSDK/BidNativeAd (= 7.7.6)
+    - MintegralAdSDK/BidNativeAdvancedAd (= 7.7.6)
+    - MintegralAdSDK/BidNewInterstitialAd (= 7.7.6)
+    - MintegralAdSDK/BidRewardVideoAd (= 7.7.6)
+    - MintegralAdSDK/BidSplashAd (= 7.7.6)
+    - MintegralAdSDK/NewInterstitialAd (= 7.7.6)
+    - ToBid-iOS/ToBidSDK
+  - ToBid-iOS/ToBidSDK (4.5.0)
+  - ToBid-iOS/TouTiaoAdapter (4.5.0):
+    - ToBid-iOS/ToBidSDK
+
+DEPENDENCIES:
+  - HJOpenAds (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - GDTMobSDK
+    - MintegralAdSDK
+    - ToBid-iOS
+
+EXTERNAL SOURCES:
+  HJOpenAds:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GDTMobSDK: ec2e9b392268a556e4d5e6ade6d00885d76a2cc5
+  HJOpenAds: 788c081b5483af4c257288d44a67df0606e42fc4
+  MintegralAdSDK: 81febc34aafe94f744f0526bfbd421eda325722e
+  ToBid-iOS: e8c0800e3417402fe9bb509783a9029037a505b3
+
+PODFILE CHECKSUM: da8bf6901d490f8032f7321223752ae6855c393b
+
+COCOAPODS: 1.16.2
