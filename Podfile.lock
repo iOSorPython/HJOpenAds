@@ -1,0 +1,76 @@
+PODS:
+  - MintegralAdSDK/BannerAd (7.7.2):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidBannerAd (7.7.2):
+    - MintegralAdSDK/BannerAd
+    - MintegralAdSDK/BidNativeAd
+  - MintegralAdSDK/BidNativeAd (7.7.2):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/BidNativeAdvancedAd (7.7.2):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/NativeAdvancedAd
+  - MintegralAdSDK/BidNewInterstitialAd (7.7.2):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/NewInterstitialAd
+  - MintegralAdSDK/BidRewardVideoAd (7.7.2):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/RewardVideoAd
+  - MintegralAdSDK/BidSplashAd (7.7.2):
+    - MintegralAdSDK/BidNativeAd
+    - MintegralAdSDK/SplashAd
+  - MintegralAdSDK/InterstitialVideoAd (7.7.2):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NativeAd (7.7.2)
+  - MintegralAdSDK/NativeAdvancedAd (7.7.2):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/NewInterstitialAd (7.7.2):
+    - MintegralAdSDK/InterstitialVideoAd
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/RewardVideoAd (7.7.2):
+    - MintegralAdSDK/NativeAd
+  - MintegralAdSDK/SplashAd (7.7.2):
+    - MintegralAdSDK/NativeAd
+  - ToBid-iOS/AdScopeAdapter (4.1.0):
+    - ToBid-iOS/ToBidSDK
+  - ToBid-iOS/BaiduAdapter (4.1.0):
+    - ToBid-iOS/ToBidSDK
+  - ToBid-iOS/CSJMediationAdapter (4.1.0):
+    - ToBid-iOS/TouTiaoAdapter
+  - ToBid-iOS/GDTAdapter (4.1.0):
+    - ToBid-iOS/ToBidSDK
+  - ToBid-iOS/KSAdapter (4.1.0):
+    - ToBid-iOS/ToBidSDK
+  - ToBid-iOS/MintegralAdapter (4.1.0):
+    - MintegralAdSDK/BidBannerAd (= 7.7.2)
+    - MintegralAdSDK/BidNativeAd (= 7.7.2)
+    - MintegralAdSDK/BidNativeAdvancedAd (= 7.7.2)
+    - MintegralAdSDK/BidNewInterstitialAd (= 7.7.2)
+    - MintegralAdSDK/BidRewardVideoAd (= 7.7.2)
+    - MintegralAdSDK/BidSplashAd (= 7.7.2)
+    - MintegralAdSDK/NewInterstitialAd (= 7.7.2)
+    - ToBid-iOS/ToBidSDK
+  - ToBid-iOS/ToBidSDK (4.1.0)
+  - ToBid-iOS/TouTiaoAdapter (4.1.0):
+    - ToBid-iOS/ToBidSDK
+
+DEPENDENCIES:
+  - ToBid-iOS/AdScopeAdapter (= 4.1.0)
+  - ToBid-iOS/BaiduAdapter (= 4.1.0)
+  - ToBid-iOS/CSJMediationAdapter (= 4.1.0)
+  - ToBid-iOS/GDTAdapter (= 4.1.0)
+  - ToBid-iOS/KSAdapter (= 4.1.0)
+  - ToBid-iOS/MintegralAdapter (= 4.1.0)
+  - ToBid-iOS/TouTiaoAdapter (= 4.1.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MintegralAdSDK
+    - ToBid-iOS
+
+SPEC CHECKSUMS:
+  MintegralAdSDK: 7e05f9ab5f555b7049435a9477d457d7bf9b5473
+  ToBid-iOS: d307f20d17fe3d311c0326b4013fd2cf0ac244d7
+
+PODFILE CHECKSUM: 74ca64428c472f0479f028081682674e81a79f50
+
+COCOAPODS: 1.16.2
